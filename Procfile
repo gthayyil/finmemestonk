@@ -1,1 +1,1 @@
-web: gunicorn memestock:runserver
+web: gunicorn memestock:FlaskWebProject1.runserver

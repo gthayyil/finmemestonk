@@ -3,7 +3,7 @@ Routes and views for the flask application.
 """
 
 from datetime import datetime
-from flask import render_template,url_for
+from flask import render_template,url_4
 from FlaskWebProject1 import app
 from flask import request
 import numpy as np
@@ -161,7 +161,7 @@ def home():
         plt.xlabel("Days")
         plt.ylabel("Adj. Close Price $")
         plt.legend()
-        plt.savefig(url_for("static")+"images/_graph.png")
+        plt.savefig("static\\images\\_graph.png")
 
         # plt.show()
         return render_template('index.html',

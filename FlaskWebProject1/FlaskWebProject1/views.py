@@ -3,7 +3,7 @@ Routes and views for the flask application.
 """
 
 from datetime import datetime
-from flask import render_template,url_4
+from flask import render_template
 from FlaskWebProject1 import app
 from flask import request
 import numpy as np

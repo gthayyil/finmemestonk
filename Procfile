@@ -1,1 +1,1 @@
-web: gunicorn memestock:FlaskWebProject1.runserver
+web: gunicorn FlaskWebProject1.runserver:app

@@ -161,7 +161,7 @@ def home():
         plt.xlabel("Days")
         plt.ylabel("Adj. Close Price $")
         plt.legend()
-        plt.savefig("static\\images\\_graph.png")
+        plt.savefig("static/images/_graph.png")
 
         # plt.show()
         return render_template('index.html',
